@@ -30,6 +30,10 @@ nav a{
         color:#ffffff;
         font-weight:bold;
 }
+
+nav a:hover{
+	background:#000000;
+}
 	
 p{
     color:white;
@@ -52,9 +56,6 @@ animation-duration:4s;
 @keyframes ani {
   from {background:#000000;}
   to{background:grey;}
-}
-nav a:active{
-	background: #000;
 }
 
 h1{
@@ -139,8 +140,10 @@ position:relative;
   text-align: center;
 margin-right:2%;
 }
+
 .politics{
 width:50%;}
+
 .fa-fontawesome
 {
 width:50%;
