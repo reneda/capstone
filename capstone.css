@@ -1,0 +1,151 @@
+body{
+    background-image:url("https://github.com/reneda/images/blob/master/resize-15930853211162219285ngc6357.jpg?raw=true");
+font-family:Courier, monospace;
+color:white;
+
+}
+
+header{
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+}
+
+
+nav a{
+
+	
+	display: inline-block;
+	width: 20%;
+	background: rgba(191, 191, 191,0.4);
+	border: 1px;
+	border-radius: 4px;
+	border-style: none;
+	padding: 4px;
+	margin-right: 1%;
+	margin-left: 1%;
+        margin-top:1%;
+	text-decoration: none;
+	text-align: center;
+	font: "Bubblegum Sans";
+        color:#ffffff;
+font-weight:bold;
+}
+
+nav a:hover{
+	background:#000000;
+}
+p{
+    color:white;
+text-align:center;
+ line-height: 25px;
+font-family:Courier, monospace;
+font-weight:bold;
+margin: 2%;
+padding:2%;
+font-size:150%;
+
+}
+.title{
+font-family:monospace;
+font-size:200%;
+background:#000000;
+animation-name:ani;
+animation-duration:4s;
+}
+@keyframes ani {
+  from {background:#000000;}
+  to{background:grey;}
+}
+nav a:active{
+	background: #000;
+}
+
+h1{
+font-family:Courier, monospace;
+color:white;text-align:center;
+line-height:60px;
+font-weight:bold;
+font-size:2.5rem;}
+
+.container {
+  position: relative;
+  
+}
+
+div{
+display:inline-block;
+margin-left:18%;
+margin-bottom:2%;
+}
+
+.image{
+height:200px;
+margin-left:18%;
+margin-bottom:2%;
+border-radius:15px;
+}
+
+.interest{
+width:48%;
+}
+
+@media all and (min-width: 600px)
+{
+.interest{
+width:40%;
+}
+}
+
+
+@media all and (max-width: 600px)
+{
+.image{
+height:200px;
+margin-left:8%;
+position:relative;
+
+}
+.skills
+{
+  text-align:left;
+}
+
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+margin-right:2%;
+}
+.politics{
+width:50%;}
+.fa-fontawesome
+{
+width:50%;
+}
